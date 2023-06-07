@@ -5,14 +5,30 @@ body {
     max-width: 750px;
     text-align: center;
 }
-.recipe-contents {
+.content {
+    margin: 10px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #f3f0d1;
+}
+.header {
+    background-color: #e29c68 ;
     border-style: solid;
     border-radius: 5px;
-    padding: 15px;
-    background-color: #e4f6f6;
+    border-color: #a20e0e;
+    color: #000;
+    padding-bottom: 10px;
 }
-.title {
+img {
+    border-style: solid;
+}
+h2 {
+    color: #a20e0e;
+}
+.subhead {
     text-align: left;
+    color: #c85108;
 }
 li {
     text-align: left;
