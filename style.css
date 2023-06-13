@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
 body {
     font-family: Verdana, Helvetica, Tahoma, sans-serif;
     max-width: 800px;

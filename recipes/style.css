@@ -1,9 +1,11 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     line-height: 20px;
     max-width: 750px;
     text-align: center;
+   
 }
 .content {
     margin: 10px;
@@ -30,6 +32,12 @@ h2 {
     text-align: left;
     color: #c85108;
 }
+.ingredients,
+.method {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
 li {
     text-align: left;
 }
@@ -39,4 +47,15 @@ ul {
 }
 ol {
     padding-left: 18px;
+}
+.time {
+    display: inline-block;
+    border: 1px solid #a20e0e;
+    border-radius: 4px;
+    background: #e29c68;
+    box-shadow: 1px 1px 4px #a20e0e;
+    padding: 1px;
+    height: 60px;
+    width: 200px;
+    line-height: 30px;
 }
