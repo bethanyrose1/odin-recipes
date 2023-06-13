@@ -8,16 +8,18 @@ body {
     font-family: Verdana, Helvetica, Tahoma, sans-serif;
     max-width: 800px;
     background-color: #e29c68;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px
 }
-h1 {
+.title {
     background-color: #f3f0d1;
-    padding: 20px;
+    margin: 10px 0px;
     text-align: center;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #a20e0e;
+    border: 2px solid #a20e0e;
+    border-radius: 5px;   
+}
+h1{
+    margin: 10px;
 }
 .recipes {
     background-color:#ffffff60;
